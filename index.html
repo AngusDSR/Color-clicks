@@ -1,44 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Colour clicks</title>
 	<link rel="icon" href="favicon.svg">
-  	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</head>
 
-  </head>
-  <body>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">Loading...</h1>
+      <div id="total-text">
+        <h1 id="total">0</h1>
+      </div>
+    </header>
 
-  <header>
-    <h1 id="title">Loading...</h1>
-    <div id="total-text">
-      <h1 id="total">0</h1>
-    </div>
-  </header>
+    <main class="grid-container">
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+      <button>Click</button>
+    </main>
+    <input id="reset" name="reset" type="Reset" aria-label="reset">
+  </div>
 
-  <main id="container">
-    <div class="row">
-      <button>Click</button>
-      <button>Click</button>
-      <button>Click</button>
-    </div>
-    <div class="row">
-      <button>Click</button>
-      <button>Click</button>
-      <button>Click</button>
-    </div>
-    <div class="row">
-      <button>Click</button>
-      <button>Click</button>
-      <button>Click</button>
-    </div>
-  </main>
-
-  <footer>
-    <input type="Reset">
-  </footer>
   <script type="text/javascript" src="script.js"></script>
-</body>
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+</body>
