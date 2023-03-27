@@ -1,9 +1,3 @@
-<style>
- video{
-   max-height:200px;
- }
-</style>
-
 # 🎨 Color Clicks
 
 A simple one-page game created to practice JavaScript and front-end. 
